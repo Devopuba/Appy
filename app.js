@@ -3,5 +3,6 @@ const addButtonEl = document.getElementById("add-button")
 
 //add event listener//
 addButtonEl.addEventListener("click", function(){
-    console.log(inputFieldEl.value)
+    let inputValue = input.value
+    console.log(input.Value)
 })
